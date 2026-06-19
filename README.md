@@ -182,3 +182,46 @@ Lista em ordem inversa:
 ```bash
 gcc lista_duplamente_encadeada.c -o lista_duplamente_encadeada
 ```
+
+# Lista Circular em C
+
+## Descrição
+
+Este projeto apresenta a implementação de uma Lista Circular utilizando a linguagem C.
+
+Uma lista circular é uma estrutura de dados em que o último nó aponta novamente para o primeiro nó da lista, formando um ciclo. Dessa forma, é possível percorrer todos os elementos continuamente sem encontrar um ponteiro NULL no final.
+
+## Funcionalidades
+
+- Inserção de elementos.
+- Exibição da lista.
+- Busca de elementos.
+- Percurso circular dos nós.
+
+## Como Funciona
+
+Em uma lista circular, os nós ficam conectados em forma de ciclo. O último nó da lista aponta para o primeiro, permitindo que a navegação retorne ao início automaticamente.
+
+### Exemplo
+
+Lista circular:
+
+10 -> 20 -> 30 -> 40
+
+↓
+
+40 aponta para 10
+
+## Complexidade das Operações
+
+| Operação | Complexidade |
+|-----------|------------|
+| Inserção | O(n) |
+| Busca | O(n) |
+| Exibição | O(n) |
+
+## Compilação
+
+```bash
+gcc lista_circular.c -o lista_circular
+```
