@@ -2,7 +2,7 @@
 Repositorio para pesquisa de estrutura de dados
 ---
 
-## 🛠️ Descrição dos Códigos
+## Descrição dos Códigos
 
 ### 1. Algoritmo de Cálculo de Média (`01_calculo_media.c`)
 * **Propósito**: Demonstração empírica dos pilares de um algoritmo (Entrada, Processamento e Saída).
@@ -18,7 +18,7 @@ Repositorio para pesquisa de estrutura de dados
 
 ---
 
-## 🚀 Instruções de Compilação e Execução
+## Instruções de Compilação e Execução
 
 Para compilar e executar qualquer um dos códigos deste projeto, é necessário um compilador padrão ANSI C (como o `GCC` integrado ao MinGW no Windows ou nativo no Linux/macOS).
 
