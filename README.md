@@ -76,3 +76,59 @@ Utilize o compilador GCC:
 
 ```bash
 gcc lista_ordenada.c -o lista_ordenada
+
+# Lista Encadeada em C
+
+## Descrição
+
+Este projeto apresenta a implementação de uma Lista Encadeada utilizando a linguagem C.
+
+Uma lista encadeada é uma estrutura de dados formada por nós. Cada nó possui um campo para armazenar um valor e um ponteiro que indica o próximo nó da lista.
+
+## Funcionalidades
+
+- Criação de nós.
+- Inserção no início da lista.
+- Inserção no final da lista.
+- Busca de elementos.
+- Remoção de elementos.
+- Exibição da lista.
+- Liberação da memória utilizada.
+
+## Como Funciona
+
+Cada elemento da lista é representado por um nó. Os nós são conectados por ponteiros, formando uma sequência de elementos.
+
+### Exemplo
+
+Após inserir os valores:
+
+```text
+10
+20
+30
+```
+
+A lista será exibida como:
+
+```text
+10 -> 20 -> 30 -> NULL
+```
+
+## Complexidade das Operações
+
+| Operação | Complexidade |
+|-----------|------------|
+| Inserção no início | O(1) |
+| Inserção no final | O(n) |
+| Busca | O(n) |
+| Remoção | O(n) |
+| Exibição | O(n) |
+
+## Compilação
+
+Compile o programa utilizando o GCC:
+
+```bash
+gcc lista_encadeada.c -o lista_encadeada
+```
