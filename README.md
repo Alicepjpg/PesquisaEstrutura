@@ -16,6 +16,32 @@ Repositorio para pesquisa de estrutura de dados
 * **Propósito**: Modelagem de entidades do mundo real através de Tipos Abstratos de Dados (TAD) heterogêneos.
 * **Funcionamento**: Define uma `struct Produto` contendo membros de diferentes tipos (inteiro, caractere e ponto flutuante). O programa gerencia um vetor de estruturas para cadastrar múltiplos produtos, calcula o subtotal financeiro de cada item em estoque e consolida o valor total do inventário da empresa.
 
+## Algoritmos de ordenação e pesquisa 
+
+### 1. Bubble Sort (`bubble_sort.c`)
+
+* **Propósito**: Demonstrar o funcionamento de um algoritmo simples de ordenação.
+* **Funcionamento**: O programa compara elementos vizinhos e realiza trocas quando estão fora de ordem, repetindo o processo até que todos os elementos estejam organizados em ordem crescente.
+
+### 2. Selection Sort (`selection_sort.c`)
+
+* **Propósito**: Demonstrar um algoritmo de ordenação baseado na seleção do menor elemento.
+* **Funcionamento**: O programa procura o menor valor do vetor e o posiciona corretamente, repetindo o processo até que todos os elementos estejam ordenados.
+
+### 3. Pesquisa Sequencial (`pesquisa_sequencial.c`)
+
+* **Propósito**: Demonstrar a busca linear em um conjunto de dados.
+* **Funcionamento**: O programa percorre os elementos do vetor um a um até localizar o valor procurado ou concluir que ele não existe.
+
+### 4. Pesquisa Binária (`pesquisa_binaria.c`)
+
+* **Propósito**: Demonstrar uma técnica eficiente de busca em vetores ordenados.
+* **Funcionamento**: O programa compara o valor procurado com o elemento central do vetor e reduz sucessivamente o espaço de busca até encontrar o elemento ou encerrar a pesquisa.
+
+```bash
+```
+
+
 ---
 
 ## Instruções de Compilação e Execução
