@@ -76,6 +76,8 @@ Utilize o compilador GCC:
 
 ```bash
 gcc lista_ordenada.c -o lista_ordenada
+```
+
 
 # Lista Encadeada em C
 
@@ -103,17 +105,13 @@ Cada elemento da lista é representado por um nó. Os nós são conectados por p
 
 Após inserir os valores:
 
-```text
 10
 20
 30
-```
 
 A lista será exibida como:
 
-```text
 10 -> 20 -> 30 -> NULL
-```
 
 ## Complexidade das Operações
 
@@ -126,8 +124,6 @@ A lista será exibida como:
 | Exibição | O(n) |
 
 ## Compilação
-
-Compile o programa utilizando o GCC:
 
 ```bash
 gcc lista_encadeada.c -o lista_encadeada
