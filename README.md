@@ -45,3 +45,34 @@ nome_executavel.exe
 ./nome_executavel
 ```
 
+# Lista Ordenada em C
+
+## Descrição
+
+Este projeto implementa uma Lista Ordenada utilizando a linguagem C.
+
+Uma lista ordenada é uma estrutura de dados em que os elementos são armazenados de forma organizada. Sempre que um novo valor é inserido, ele é colocado na posição correta para manter a ordem crescente da lista.
+
+## Funcionalidades
+
+- Inserção mantendo a ordem dos elementos.
+- Exibição dos elementos da lista.
+- Busca de valores.
+- Análise das operações realizadas.
+
+## Exemplo
+
+Valores inseridos:
+
+30, 10, 40, 20
+
+Resultado da lista:
+
+10, 20, 30, 40
+
+## Como Compilar
+
+Utilize o compilador GCC:
+
+```bash
+gcc lista_ordenada.c -o lista_ordenada
