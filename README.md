@@ -38,10 +38,6 @@ Repositorio para pesquisa de estrutura de dados
 * **Propósito**: Demonstrar uma técnica eficiente de busca em vetores ordenados.
 * **Funcionamento**: O programa compara o valor procurado com o elemento central do vetor e reduz sucessivamente o espaço de busca até encontrar o elemento ou encerrar a pesquisa.
 
-```bash
-```
-
-
 ---
 
 ## Instruções de Compilação e Execução
