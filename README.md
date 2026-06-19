@@ -76,3 +76,74 @@ Utilize o compilador GCC:
 
 ```bash
 gcc lista_ordenada.c -o lista_ordenada
+
+# Lista Ordenada em C
+
+## Descrição
+
+Este projeto apresenta a implementação de uma Lista Ordenada utilizando a linguagem C.
+
+Uma lista ordenada é uma estrutura de dados em que os elementos permanecem organizados em ordem crescente. Sempre que um novo valor é inserido, ele é colocado na posição correta para manter a organização da lista.
+
+## Funcionalidades
+
+- Inserção mantendo a ordem dos elementos.
+- Exibição dos elementos da lista.
+- Busca de valores.
+- Organização automática dos dados.
+
+## Como Funciona
+
+Ao inserir um novo elemento, o programa verifica a posição correta para armazená-lo. Dessa forma, a lista permanece ordenada independentemente da ordem em que os valores são adicionados.
+
+### Exemplo
+
+Valores inseridos:
+
+```text
+30
+10
+40
+20
+```
+
+Resultado:
+
+```text
+10 20 30 40
+```
+
+## Complexidade das Operações
+
+| Operação | Complexidade |
+|-----------|------------|
+| Inserção Ordenada | O(n) |
+| Busca | O(n) |
+| Exibição | O(n) |
+
+## Compilação
+
+Compile o programa utilizando o GCC:
+
+```bash
+gcc lista_ordenada.c -o lista_ordenada
+```
+
+## Execução
+
+Windows:
+
+```bash
+lista_ordenada.exe
+```
+
+Linux/Mac:
+
+```bash
+./lista_ordenada
+```
+
+## Estrutura Utilizada
+
+A implementação foi realizada utilizando um vetor para armazenar os elementos da lista.
+
