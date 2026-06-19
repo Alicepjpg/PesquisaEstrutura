@@ -128,3 +128,57 @@ A lista será exibida como:
 ```bash
 gcc lista_encadeada.c -o lista_encadeada
 ```
+
+# Lista Duplamente Encadeada em C
+
+## Descrição
+
+Este projeto apresenta a implementação de uma Lista Duplamente Encadeada utilizando a linguagem C.
+
+Uma lista duplamente encadeada é uma estrutura de dados formada por nós. Cada nó possui um campo para armazenar um valor, um ponteiro para o próximo nó e outro ponteiro para o nó anterior.
+
+Essa estrutura permite percorrer a lista tanto em ordem direta quanto em ordem inversa.
+
+## Funcionalidades
+
+- Inserção no início da lista.
+- Inserção no final da lista.
+- Remoção de elementos.
+- Exibição em ordem direta.
+- Exibição em ordem inversa.
+- Liberação da memória utilizada.
+
+## Como Funciona
+
+Cada nó possui dois ponteiros:
+
+- Um para o próximo nó.
+- Um para o nó anterior.
+
+Dessa forma, é possível navegar pela lista nos dois sentidos.
+
+### Exemplo
+
+Lista em ordem direta:
+
+10 <-> 20 <-> 30 <-> 40
+
+Lista em ordem inversa:
+
+40 <-> 30 <-> 20 <-> 10
+
+## Complexidade das Operações
+
+| Operação | Complexidade |
+|-----------|------------|
+| Inserção no início | O(1) |
+| Inserção no final | O(n) |
+| Remoção | O(n) |
+| Exibição direta | O(n) |
+| Exibição inversa | O(n) |
+
+## Compilação
+
+```bash
+gcc lista_duplamente_encadeada.c -o lista_duplamente_encadeada
+```
