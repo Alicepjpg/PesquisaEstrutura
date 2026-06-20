@@ -247,7 +247,7 @@ Lista circular:
 ```bash
 gcc lista_circular.c -o lista_circular
 ```
-##Estruturas por ordem de acesso
+## Estruturas por ordem de acesso
 
 ### 1. Sistema de Pedidos com Fila ('fila.c')
 * **Propósito**: Implementação da estrutura de dados Fila para demonstrar o gerenciamento de elementos em ordem de chegada.
