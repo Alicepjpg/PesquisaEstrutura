@@ -15,10 +15,12 @@ int inicio = 0;
 int fim = -1;
 int quantidade = 0;
 
+// Verifica se a fila está vazia
 int filaVazia() {
 	return quantidade == 0;
 }
 
+// Inserção de elementos (Enfileirar)
 void adicionarPedido(int numero, char cliente[]){
 	if (quantidade == TAM) {
 		printf("\nFila de pedidos cheia!\n");
@@ -35,6 +37,7 @@ void adicionarPedido(int numero, char cliente[]){
 	       numero, cliente);
 }
 
+// Remoção de elementos (Desenfileirar)
 void atenderPedido() {
 	if (filaVazia()) {
 		printf("\nNao existe pedidos na fila.\n");
@@ -49,6 +52,7 @@ void atenderPedido() {
 	quantidade--;
 }
 
+// Consulta ao primeiro elemento da fila
 void consultarPrimeiroPedido() {
 	if (filaVazia()) {
 		printf("\nFila vazia.\n");
@@ -60,6 +64,7 @@ void consultarPrimeiroPedido() {
 	printf("Cliente: %s\n", fila[inicio].cliente);
 }
 
+// Exibição da fila
 void exibirFila() {
 	if (filaVazia()) {
 		printf("\nFila vazia.\n");
