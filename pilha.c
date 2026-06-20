@@ -11,14 +11,17 @@ typedef struct {
 Site pilha[TAM];
 int topo = -1;
 
+// Verifica se a pilha está vazia
 int pilhaVazia() {
     return topo == -1;
 }
 
+// Verifica se a pilha está cheia
 int pilhaCheia() {
     return topo == TAM - 1;
 }
 
+// Inserção de elementos
 void visitarPagina(char pagina[]) {
     if (pilhaCheia()) {
         printf("\nHistorico cheio!\n");
@@ -31,6 +34,7 @@ void visitarPagina(char pagina[]) {
     printf("\nPagina visitada: %s\n", pagina);
 }
 
+// Remoção de elementos
 void voltarPagina() {
     if (pilhaVazia()) {
         printf("\nNao ha paginas para voltar.\n");
@@ -41,6 +45,7 @@ void voltarPagina() {
     topo--;
 }
 
+// Consulta
 void paginaAtual() {
     if (pilhaVazia()) {
         printf("\nNenhuma pagina no historico.\n");
@@ -50,13 +55,14 @@ void paginaAtual() {
     printf("\nPagina atual: %s\n", pilha[topo].pagina);
 }
 
+// Exibição da pilha
 void exibirHistorico() {
     if (pilhaVazia()) {
         printf("\nHistorico vazio.\n");
         return;
     }
 
-    printf("\n--- HISTORICO DE NAVEGACAO ---\n");
+    printf("\n=== HISTORICO DE NAVEGACAO ===\n");
 
     for (int i = topo; i >= 0; i--) {
         printf("%d. %s\n", topo - i + 1, pilha[i].pagina);
@@ -68,7 +74,7 @@ int main() {
     char pagina[100];
 
     do {
-        printf("\n---- HISTORICO DE NAVEGACAO ----\n");
+        printf("\n===== HISTORICO DE NAVEGACAO =====\n");
         printf("1 - Visitar pagina\n");
         printf("2 - Voltar pagina\n");
         printf("3 - Consultar pagina atual\n");
@@ -110,13 +116,17 @@ int main() {
                 break;
 
             case 0:
-                printf("\nNavegador encerrado\n");
+                printf("\nNavegador encerrando\n");
                 break;
 
             default:
                 printf("\nOpcao invalida!\n");
         }
 
+    } while(opcao != 0);
+
+    return 0;
+}
     } while(opcao != 0);
 
     return 0;
