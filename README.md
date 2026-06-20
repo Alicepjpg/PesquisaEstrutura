@@ -247,3 +247,12 @@ Lista circular:
 ```bash
 gcc lista_circular.c -o lista_circular
 ```
+##Estruturas por ordem de acesso
+
+### 1. Sistema de Pedidos com Fila ('fila.c')
+* **Propósito**: Implementação da estrutura de dados Fila para demonstrar o gerenciamento de elementos em ordem de chegada.
+* **Funcionamento**: O algoritmo realiza operações de inserção (enqueue), remoção (dequeue), consulta ao primeiro elemento, verificação de fila vazia e exibição dos elementos armazenados. O cenário de aplicação consiste em um sistema de pedidos, no qual o primeiro pedido inserido é o primeiro a ser atendido, seguindo o princípio FIFO.
+
+### 2. Histórico de Navegação com Pilha ('pilha.c')
+* **Propósito**: Implementação da estrutura de dados Pilha para demonstrar o gerenciamento de elementos em ordem inversa de inserção.
+* **Funcionamento**: O algoritmo realiza operações de inserção (push), remoção (pop), consulta ao topo, verificação de pilha vazia e exibição dos elementos armazenados. O cenário de aplicação consiste em um histórico de navegação, no qual a última página visitada é a primeira a ser removida ao utilizar a funcionalidade de retorno, seguindo o princípio LIFO.
