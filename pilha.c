@@ -62,7 +62,7 @@ void exibirHistorico() {
         return;
     }
 
-    printf("\n=== HISTORICO DE NAVEGACAO ===\n");
+    printf("\n--- HISTORICO DE NAVEGACAO ---\n");
 
     for (int i = topo; i >= 0; i--) {
         printf("%d. %s\n", topo - i + 1, pilha[i].pagina);
@@ -74,7 +74,7 @@ int main() {
     char pagina[100];
 
     do {
-        printf("\n===== HISTORICO DE NAVEGACAO =====\n");
+        printf("\n---- HISTORICO DE NAVEGACAO ----\n");
         printf("1 - Visitar pagina\n");
         printf("2 - Voltar pagina\n");
         printf("3 - Consultar pagina atual\n");
@@ -116,7 +116,7 @@ int main() {
                 break;
 
             case 0:
-                printf("\nNavegador encerrando\n");
+                printf("\nNavegador encerrado\n");
                 break;
 
             default:
