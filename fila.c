@@ -91,7 +91,7 @@ int main() {
 		printf("2 - Atender pedido\n");
 		printf("3 - Consultar primeiro pedido\n");
 		printf("4 - Exibir fila de pedidos\n");
-		printf("5 - Verificar fila de pedidos\n");
+		printf("5 - Verificar fila de pedidos vazia\n");
 		printf("0 - Sair\n");
 		printf("Escolha: ");
 		scanf("%d", &opcao);
